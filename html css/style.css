@@ -1,0 +1,258 @@
+body {
+  min-height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.head-mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  letter-spacing: 0.44px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3c4a42;
+  font-family: "JetBrains Mono", monospace;
+}
+.surligne {
+  display: flex;
+
+  color: #006c49;
+  border-bottom: 2px solid #006c49;
+}
+
+.head-left {
+  font-family: "Geist", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #006c49;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.45px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.toop {
+  font-family: "Geist", sans-serif;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 100%;
+}
+.main-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 55%;
+}
+.main-right {
+  width: 45%;
+}
+img {
+  width: 100%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -1px;
+  color: #161d19;
+}
+
+.txt {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #3c4a42;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.bottom-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2eae3;
+  gap: 6px;
+  padding: 12px 14px 12px 14px;
+  border-radius: 4px;
+  letter-spacing: 0.44px;
+  font-weight: 500;
+}
+
+.bottom-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #06b77f;
+  color: white;
+  gap: 6px;
+  padding: 12px 14px 12px 14px;
+  border-radius: 4px;
+  letter-spacing: 0.44px;
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.foot-top {
+  font-family: "Geist", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.top-h2 {
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: -0.33px;
+  color: #161d19;
+}
+.top-p {
+  font-weight: 400;
+  letter-spacing: 0.06px;
+  color: #3c4a42;
+}
+
+.foot-mid {
+  font-family: "JetBrains Mono", monospace;
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+}
+
+.foot1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 4px 10px 4px 10px;
+  background-color: #06b77f;
+  font-weight: 700;
+  font-size: 12px;
+  color: #ffffff;
+  letter-spacing: 0.48px;
+}
+
+.foot2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 4px 10px 4px 10px;
+  background-color: #eef6ee;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.48px;
+  color: #3c4a42;
+  border: 1px solid #bbcabf;
+}
+
+table {
+  font-family: "JetBrains Mono", monospace;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #bbcabf;
+}
+
+.tbtop {
+  text-align: start;
+  border-bottom: 1 px solid #bbcabf;
+  background-color: #eef6ee;
+  border-bottom: 1px solid #bbcabf;
+}
+
+.tbtop-it {
+  padding: 12px 16px 12px 16px;
+  text-align: start;
+  font: 700 12px;
+  letter-spacing: 0.8px;
+  color: #6c7a71;
+}
+
+.tbt,
+.tbt1,
+.tbt2 {
+  justify-content: space-between;
+  padding: 12px 12px 12px 12px;
+  border-top: 1px solid #bbcabf99;
+}
+
+.tbt,
+.tbt1 {
+  color: #6c7a71;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0px;
+}
+
+.tbtet1,
+.tbtet2,
+.tbtet3,
+.tbtet4 {
+  justify-content: space-between;
+  border-top: 1px #bbcabf99;
+}
+
+.tbt1 {
+  gap: 4px;
+}
+
+.tt {
+  font-family: "Geist", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #161d19;
+}
+
+.tbt2 {
+  color: #006c49;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0px;
+}
+
+.head-svg {
+  padding: 5px;
+  display: flex;
+  background-color: #e2eae3;
+  border: 1px #bbcabf;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
